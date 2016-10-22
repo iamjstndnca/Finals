@@ -1,0 +1,159 @@
+body{
+background-image: url(../logos/loc3.jpg);
+background-size: 1365px 800px;
+   margin-top:0px;
+   margin-left:0px;
+   margin-right:0px;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 35px;
+	margin-right:0px;
+	margin-left:5px;
+    padding: 0;
+	height:40px;
+    overflow: hidden;
+        color: #025807;
+
+}
+
+li {
+    float: left;
+    font-weight: bolder;
+    font-family: "Maiandra GD";
+    text-transform: uppercase;
+	font-weight: bolder;
+    position: relative;
+    left: 3px;
+	font-size:21px;	
+        color: #025807;
+
+
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+        color: #025807;
+
+}
+
+li a:hover:not(.active) {
+    
+	color:#109ACE ;
+}
+
+.active {
+    background-color: rgba(119, 137, 144  ,0.7);
+	border-radius:3px;
+	text-decoration:none;
+	
+}
+
+.logo{
+height: 89px;
+width:335px;
+margin-top:5px;
+border-radius: 5px;
+}
+
+h1{
+font-family:Maiandra GD;
+font-weight:bold;
+color: blanchedalmond;
+font-size: 50px;
+}
+
+h2{
+font-family: "Sitka Small";
+font-size:large;
+color:orange  ;
+font-size: 62px;
+letter-spacing: 2px;
+
+
+}
+
+h6{
+font-family: Arial, Helvetica, sans-serif;
+font-size:large;
+color:blanchedalmond;
+font-size:45px;
+letter-spacing: 2px;
+margin: 0px;
+}
+#wrapper{
+width:88%;
+position:relative;
+height:auto;
+}
+
+a{
+text-decoration:none;
+}
+
+.button {
+    padding: 16px 34px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+	background-color: rgba(165, 167, 165,0.0);
+	letter-spacing: 2px;
+}
+.button1:hover {
+    background-color: #E98C30;;
+    color: black;
+	
+}
+
+.button1 {
+    color: #E98C30;; 
+    border: 3px solid #E98C30;;
+	font-weight:bold;
+	
+}
+#footer {
+clear: both;
+position:relative;
+height: 48px;
+margin-left:10px;
+margin-right:10px;
+font-weight: 100;
+padding:8px;
+width:98.6%;
+right:8px;
+font-size:16px;
+text-align:center;
+color:  black;
+font-family:Arial;
+
+margin-bottom:0px;
+}
+.manok{
+height: 30%;
+width: 30%;
+float:left;
+position:relative;
+left:4%;
+}
+.foto{
+float:right;
+position:relative;
+right: 5%;
+width:62%;
+height:62%;
+}
